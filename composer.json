@@ -1,18 +1,22 @@
 {
-    "name": "barryvdh/laravel-dompdf",
-    "description": "A DOMPDF Wrapper for Laravel",
+    "name": "kgcoder/laravel-ar-dompdf",
+    "description": "AN AR DOMPDF Wrapper for Laravel",
     "license": "MIT",
-    "keywords": ["laravel", "dompdf", "pdf"],
+    "keywords": ["laravel", "ar-dompdf","ar", "pdf"],
     "authors": [
         {
             "name": "Barry vd. Heuvel",
             "email": "barryvdh@gmail.com"
+        },
+        {
+            "name": "Khaled Gamal",
+            "email": "khaledgamalsabbah@gmail.com"
         }
     ],
     "require": {
         "php": ">=5.5.9",
         "illuminate/support": "5.1.x|5.2.x|5.3.x|5.4.x|5.5.x|5.6.x",
-        "dompdf/dompdf": "^0.8"
+        "kgcoder/ar-dompdf": "^1.0"
     },
 
     "autoload": {
