@@ -1,5 +1,5 @@
 <?php
-namespace Barryvdh\DomPDF;
+namespace Kgcoder\DomPDF;
 
 use Illuminate\Support\Facades\Facade as IlluminateFacade;
 
