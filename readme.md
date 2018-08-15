@@ -12,18 +12,18 @@ Require this package in your composer.json and update composer. This will downlo
 
 After updating composer, add the ServiceProvider to the providers array in config/app.php
 
-    Barryvdh\DomPDF\ServiceProvider::class,
+    Kgcoder\DomPDF\ServiceProvider::class,
 
 You can optionally use the facade for shorter code. Add this to your facades:
 
-    'PDF' => Barryvdh\DomPDF\Facade::class,
+    'PDF' => Kgcoder\DomPDF\Facade::class,
 
 ### Lumen:
 
 After updating composer add the following lines to register provider in `bootstrap/app.php`
 
   ```
-  $app->register(\Barryvdh\DomPDF\ServiceProvider::class);
+  $app->register(\Kgcoder\DomPDF\ServiceProvider::class);
   ```
   
 To change the configuration, copy the config file to your config folder and enable it in `bootstrap/app.php`:
@@ -61,7 +61,7 @@ You can also use your ConfigProvider to set certain keys.
 ### Configuration
 The defaults configuration settings are set in `config/dompdf.php`. Copy this file to your own config directory to modify the values. You can publish the config using this command:
 
-    php artisan vendor:publish --provider="Barryvdh\DomPDF\ServiceProvider"
+    php artisan vendor:publish --provider="Kgcoder\DomPDF\ServiceProvider"
 
 You can still alter the dompdf options in your code before generating the pdf using this command:
 
